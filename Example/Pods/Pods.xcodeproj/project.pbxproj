@@ -313,13 +313,13 @@
 		6E5BFA1ABE5CB5CE79DA5A66E7EBA15D /* Expecta+Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.xcconfig"; sourceTree = "<group>"; };
 		6F83EB6595C7B9AAE1D1B1A3BF3BEC42 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		7294A5B18D0DC3A0D550BBA577C3A49E /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
-		7328F26F2302BB6D0080CAF7 /* KRYAbsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRYAbsTask.h; sourceTree = "<group>"; };
-		7328F2702302BB6D0080CAF7 /* KRYNetContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRYNetContext.h; sourceTree = "<group>"; };
+		7328F26F2302BB6D0080CAF7 /* KRYAbsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KRYAbsTask.h; path = ../Practice1Lib/Classes/task/KRYAbsTask.h; sourceTree = "<group>"; };
+		7328F2702302BB6D0080CAF7 /* KRYNetContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KRYNetContext.h; path = Practice1Lib/Classes/KRYNetContext.h; sourceTree = "<group>"; };
 		7328F2722302BB6D0080CAF7 /* KRYAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRYAction.m; sourceTree = "<group>"; };
 		7328F2742302BB6D0080CAF7 /* KRYNetTaskImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRYNetTaskImpl.h; sourceTree = "<group>"; };
 		7328F2752302BB6D0080CAF7 /* KRYNetTaskImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRYNetTaskImpl.m; sourceTree = "<group>"; };
 		7328F2762302BB6D0080CAF7 /* KRYAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRYAction.h; sourceTree = "<group>"; };
-		7328F2772302BB6E0080CAF7 /* KRYNetContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRYNetContext.m; sourceTree = "<group>"; };
+		7328F2772302BB6E0080CAF7 /* KRYNetContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KRYNetContext.m; path = Practice1Lib/Classes/KRYNetContext.m; sourceTree = "<group>"; };
 		7328F2812302BBB00080CAF7 /* KRYAbsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRYAbsAction.h; sourceTree = "<group>"; };
 		7328F2832302BC530080CAF7 /* KRYNetActionImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRYNetActionImpl.h; sourceTree = "<group>"; };
 		7328F2842302BC530080CAF7 /* KRYNetActionImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRYNetActionImpl.m; sourceTree = "<group>"; };
@@ -732,7 +732,8 @@
 				7328F2842302BC530080CAF7 /* KRYNetActionImpl.m */,
 				7328F28A2302BF640080CAF7 /* KRYNetActionProtocol.h */,
 			);
-			path = net;
+			name = net;
+			path = Practice1Lib/Classes/net;
 			sourceTree = "<group>";
 		};
 		7328F2882302BC960080CAF7 /* action */ = {
@@ -742,7 +743,8 @@
 				7328F2762302BB6D0080CAF7 /* KRYAction.h */,
 				7328F2722302BB6D0080CAF7 /* KRYAction.m */,
 			);
-			path = action;
+			name = action;
+			path = Practice1Lib/Classes/action;
 			sourceTree = "<group>";
 		};
 		7328F2892302BD110080CAF7 /* task */ = {
