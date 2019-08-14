@@ -8,7 +8,7 @@
 
 #import "KRYViewController.h"
 //#import <KRYNetContext.h>
-#import <KRYNetActionImpl.h>
+#import <Practice1Lib-umbrella.h>
 #import <coobjc/coobjc.h>
 @interface KRYViewController ()
 

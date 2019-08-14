@@ -10,24 +10,29 @@
 #import <coobjc/coobjc.h>
 @implementation KRYNetActionImpl 
 
+- (void)work {
+    
+}
+
 - (NSString *)requestNet {
     
-    return @"Hello,World";
+    return await([self co_GET:@"www.baidu.com" parameters:NULL]);
 //    __block NSString *str = NULL;
 //    co_launch(^{
 //        str = @"Hello, World";//await([self co_GET:@"www.baidu.com" parameters:NULL]);
 //    });
 //    return str;
 }
-//- (COPromise*)co_GET:(NSString*)url
-//          parameters:(NSDictionary*)parameters{
-//    COPromise *promise = [COPromise promise];
-//    [[AFHTTPSessionManager manager] GET:@"www.baidu.com" parameters:NULL success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-//        [promise fulfill:responseObject];
-//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-//        [promise reject:error];
-//    }];
-//    return promise;
-//}
+
+- (COPromise*)co_GET:(NSString*)url
+          parameters:(NSDictionary*)parameters{
+    COPromise *promise = [COPromise promise];
+    [[AFHTTPSessionManager manager] GET:@"www.baidu.com" parameters:NULL success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        [promise fulfill:responseObject];
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        [promise reject:error];
+    }];
+    return promise;
+}
 
 @end

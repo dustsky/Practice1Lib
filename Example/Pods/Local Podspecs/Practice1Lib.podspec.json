@@ -1,9 +1,9 @@
 {
   "name": "Practice1Lib",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "Practice1Lib.",
   "description": "What happened.",
-  "homepage": "https://github.com/codermy/Practice1Lib",
+  "homepage": "https://github.com/dustsky/Practice1Lib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dustsky/Practice1Lib.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
