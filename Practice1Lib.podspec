@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Practice1Lib'
-  s.version          = '0.2.0'
+  s.version          = '0.4.0'
   s.summary          = 'Practice1Lib.'
 
 # This description is used to generate tags and improve search results.
