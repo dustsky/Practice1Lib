@@ -7,6 +7,8 @@
 //
 
 #import "KRYViewController.h"
+#import <KRYNetContext.h>
+#import <KRYNetActionImpl.h>
 
 @interface KRYViewController ()
 
@@ -17,6 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    KRYNetActionImpl *impl = [[KRYNetActionImpl alloc] init];
+    id obj = [impl requestNet];
+    NSLog(@"response str : %@",obj);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
