@@ -12,11 +12,10 @@
 
 #import "KRYAbsAction.h"
 #import "KRYAction.h"
-#import "KRYNetContext.h"
 #import "KRYNetActionImpl.h"
 #import "KRYNetActionProtocol.h"
+#import "KRYNetContext.h"
 #import "KRYNetTaskImpl.h"
-#import "KRYAbsTask.h"
 
 FOUNDATION_EXPORT double Practice1LibVersionNumber;
 FOUNDATION_EXPORT const unsigned char Practice1LibVersionString[];

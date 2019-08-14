@@ -33,7 +33,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - Practice1Lib (0.4.0):
+  - Practice1Lib (0.6.0):
     - AFNetworking (~> 2.3)
     - coobjc
   - Specta (1.0.7)
@@ -66,7 +66,7 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Practice1Lib: 387fb46f4a8d65545da184a5090f34d0df90f5de
+  Practice1Lib: 47a8e3c29d46de9c3bfb99a460b1e3da758ad257
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: bcbfcd84ab49733cd32eb8d93381f79b9fc178f7

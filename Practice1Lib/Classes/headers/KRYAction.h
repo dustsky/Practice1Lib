@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface KRYAction : NSObject <KRYAbsAction>
+@interface KRYAction : NSOperation <KRYAbsAction>
 
 @end
 
