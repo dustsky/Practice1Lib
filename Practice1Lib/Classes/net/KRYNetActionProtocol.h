@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol KRYNetActionProtocol <NSObject>
 
+@required
+
+- (NSString *)requestNet;
+
 @end
 
 NS_ASSUME_NONNULL_END

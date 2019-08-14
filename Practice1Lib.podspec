@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   What happened.
                        DESC
 
-  s.homepage         = 'https://github.com/codermy/Practice1Lib'
+  s.homepage         = 'https://github.com/dustsky/Practice1Lib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'codermy' => 'gsmxsky@gmail.com' }
@@ -39,4 +39,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'coobjc'
 end
