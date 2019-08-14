@@ -813,7 +813,7 @@
 		0B6F84E2169872DB7CEAA2485BAEF047 /* Practice1Lib */ = {
 			isa = PBXGroup;
 			children = (
-				7396915D2303EC4E0096FEAF /* haaders */,
+				7396915D2303EC4E0096FEAF /* headers */,
 				75A51CA38754AA8EE265E341487FB4E0 /* KRYNetContext.m */,
 				D104CC7EE808C6C0806137AA57D2B637 /* ReplaceMe.m */,
 				2BDF3DC4F98CD4501C19B86E8F815A58 /* action */,
@@ -870,8 +870,6 @@
 		2BDF3DC4F98CD4501C19B86E8F815A58 /* action */ = {
 			isa = PBXGroup;
 			children = (
-				D22D920020DA3CE8026F09A7D0E8ACEF /* KRYAbsAction.h */,
-				4D18912F539BA53ACA086BA37448BE3B /* KRYAction.h */,
 				6623C0DC1E25206F9FA43E3CB2A534BB /* KRYAction.m */,
 			);
 			name = action;
@@ -1036,16 +1034,18 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7396915D2303EC4E0096FEAF /* haaders */ = {
+		7396915D2303EC4E0096FEAF /* headers */ = {
 			isa = PBXGroup;
 			children = (
+				D22D920020DA3CE8026F09A7D0E8ACEF /* KRYAbsAction.h */,
+				4D18912F539BA53ACA086BA37448BE3B /* KRYAction.h */,
 				DBB240A9869DFFE12630A005A0875EEC /* KRYNetActionImpl.h */,
 				17F601EE0A6C6EF2049B356359C2F515 /* KRYNetActionProtocol.h */,
 				C62800933D513240D973AB081A069F7C /* KRYNetTaskImpl.h */,
 				D3BEF91B7CAC02A4F1320BCD1C047EDB /* KRYNetContext.h */,
 			);
-			name = haaders;
-			path = Practice1Lib/Classes/haaders;
+			name = headers;
+			path = Practice1Lib/Classes/headers;
 			sourceTree = "<group>";
 		};
 		7B524F5BF9DCDFCA269886D8E6D0C394 /* Core */ = {
