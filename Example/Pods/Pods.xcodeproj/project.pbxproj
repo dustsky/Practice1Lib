@@ -619,7 +619,7 @@
 		D22D920020DA3CE8026F09A7D0E8ACEF /* KRYAbsAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KRYAbsAction.h; sourceTree = "<group>"; };
 		D234FF42D20B1F5EA7BBA27F4A71BEF6 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		D2A4060754A97763A6D53C5E0F7B40B4 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
-		D3BEF91B7CAC02A4F1320BCD1C047EDB /* KRYNetContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRYNetContext.h; path = Practice1Lib/Classes/KRYNetContext.h; sourceTree = "<group>"; };
+		D3BEF91B7CAC02A4F1320BCD1C047EDB /* KRYNetContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KRYNetContext.h; sourceTree = "<group>"; };
 		D407A07CA82DBF17F119D5EE03845706 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		D60001AF96C5C3C8F819907A495C2C84 /* co_tuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = co_tuple.m; path = coobjc/tuple/co_tuple.m; sourceTree = "<group>"; };
 		D98527B6A74B3246B663C50EF355F725 /* COPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COPromise.m; path = coobjc/promise/COPromise.m; sourceTree = "<group>"; };
@@ -813,7 +813,7 @@
 		0B6F84E2169872DB7CEAA2485BAEF047 /* Practice1Lib */ = {
 			isa = PBXGroup;
 			children = (
-				D3BEF91B7CAC02A4F1320BCD1C047EDB /* KRYNetContext.h */,
+				7396915D2303EC4E0096FEAF /* haaders */,
 				75A51CA38754AA8EE265E341487FB4E0 /* KRYNetContext.m */,
 				D104CC7EE808C6C0806137AA57D2B637 /* ReplaceMe.m */,
 				2BDF3DC4F98CD4501C19B86E8F815A58 /* action */,
@@ -1034,6 +1034,18 @@
 				A758AE8EF28F9063638A52ED7EFBE10F /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		7396915D2303EC4E0096FEAF /* haaders */ = {
+			isa = PBXGroup;
+			children = (
+				DBB240A9869DFFE12630A005A0875EEC /* KRYNetActionImpl.h */,
+				17F601EE0A6C6EF2049B356359C2F515 /* KRYNetActionProtocol.h */,
+				C62800933D513240D973AB081A069F7C /* KRYNetTaskImpl.h */,
+				D3BEF91B7CAC02A4F1320BCD1C047EDB /* KRYNetContext.h */,
+			);
+			name = haaders;
+			path = Practice1Lib/Classes/haaders;
 			sourceTree = "<group>";
 		};
 		7B524F5BF9DCDFCA269886D8E6D0C394 /* Core */ = {
@@ -1311,10 +1323,7 @@
 		EFD35199164698A1A912EE58EBB78BCE /* net */ = {
 			isa = PBXGroup;
 			children = (
-				DBB240A9869DFFE12630A005A0875EEC /* KRYNetActionImpl.h */,
 				ADF7C495948E56940DB2E78BB9FB7943 /* KRYNetActionImpl.m */,
-				17F601EE0A6C6EF2049B356359C2F515 /* KRYNetActionProtocol.h */,
-				C62800933D513240D973AB081A069F7C /* KRYNetTaskImpl.h */,
 				B397C6454CC648396A8C9B5449534844 /* KRYNetTaskImpl.m */,
 			);
 			name = net;
